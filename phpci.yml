@@ -1,0 +1,3 @@
+complete:
+    shell:
+        - "echo toto"

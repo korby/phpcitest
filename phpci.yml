@@ -1,3 +1,3 @@
 complete:
     shell:
-        command: "pwd > /tmp/toto.txt"
+        command: "echo %buildpath% > /tmp/toto.txt"

@@ -1,3 +1,6 @@
-complete:
+success:
     shell:
-        command: "pwd > /tmp/toto.txt"
+        command: "cp /var/www/PHPCI/public/assets/img/build-ok.png /var/www/PHPCI/public/assets/img/phpcitest.png"
+failure:
+    shell:
+        command: "cp /var/www/PHPCI/public/assets/img/build-failed.png /var/www/PHPCI/public/assets/img/phpcitest.png"

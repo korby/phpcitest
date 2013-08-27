@@ -7,7 +7,7 @@ success:
     shell:
         command: "cp /var/www/PHPCI/public/assets/img/build-ok.png /var/www/PHPCI/public/assets/img/phpcitest.png"
     campfire:
-        message: "Phpci speaking..."
+        message: "Phpci speaking again..."
 failure:
     shell:
         command: "cp /var/www/PHPCI/public/assets/img/build-failed.png /var/www/PHPCI/public/assets/img/phpcitest.png"

@@ -2,7 +2,7 @@ success:
     shell:
         command: "cp /var/www/PHPCI/public/assets/img/build-ok.png /var/www/PHPCI/public/assets/img/phpcitest.png"
     campfire:
-        url: "http://c2is1.campfirenow.com"
+        url: "https://c2is1.campfirenow.com"
         authToken: "3f8ba10a0d5f68402409ca03e79256b3098a71cd"
         roomId: "572644"
         message: "Phpci speaking..."

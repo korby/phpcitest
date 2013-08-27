@@ -1,10 +1,12 @@
+build_settings:
+    campfire:
+        url: "https://c2is1.campfirenow.com"
+        authToken: "7faa09a14b6b6faf7eb176d82471cde855e63c5e"
+        roomId: "572644"
 success:
     shell:
         command: "cp /var/www/PHPCI/public/assets/img/build-ok.png /var/www/PHPCI/public/assets/img/phpcitest.png"
     campfire:
-        url: "https://c2is1.campfirenow.com"
-        authToken: "3f8ba10a0d5f68402409ca03e79256b3098a71cd"
-        roomId: "572644"
         message: "Phpci speaking..."
 failure:
     shell:

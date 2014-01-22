@@ -5,7 +5,7 @@ build_settings:
         roomId: "572644"
 success:
     shell:
-        command: "cp /var/www/PHPCI/public/assets/img/build-ok.png /var/www/PHPCI/public/assets/img/phpcitest.png"
+        command: "ls ."
     campfire:
         message: "Phpci speaking <a href='%buildurl%'>again</a>"
     email:

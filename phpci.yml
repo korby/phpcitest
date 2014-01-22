@@ -9,7 +9,8 @@ success:
     campfire:
         message: "Phpci speaking <a href='%buildurl%'>again</a>"
     email:
-        - a.cianfarani@c2is.fr
+        addresses:
+            - a.cianfarani@c2is.fr
 failure:
     shell:
         command: "ls ."

@@ -12,4 +12,4 @@ success:
 	- a.cianfarani@c2is.fr
 failure:
     shell:
-        command: "cp /var/www/PHPCI/public/assets/img/build-failed.png /var/www/PHPCI/public/assets/img/phpcitest.png"
+        command: "ls ."

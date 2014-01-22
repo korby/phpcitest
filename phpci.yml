@@ -10,7 +10,7 @@ success:
         message: "Phpci speaking <a href='%buildurl%'>again</a>"
     email:
         addresses:
-            - a.cianfarani@c2is.fr
+            - andre.cianfarani@c2is.fr
 failure:
     shell:
         command: "ls ."
